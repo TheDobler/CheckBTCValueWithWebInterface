@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+    min-width:1160px;
+    min-height: 500px;
+}
+
+.heading {
+  width: 100%;
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+.UnderHeading{
+  position: relative;
+  text-align: center;
+  margin-bottom: 70px;
+}
+button {
+    width: 300px;
+    height: auto;
+    background-color: rgb(71, 71, 71);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    padding: 15px 32px;
+    border-radius: 25px;
+  }
+  .buttons{
+    position: relative;
+    text-align: center;
+    margin: 10px;
+  }
+  button:hover {background-color: #bbbbbb}
+
+  button:active {
+    background-color: #bbbbbb;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .Placement{
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  table{
+    border-collapse: separate;
+    border-spacing: 210px 0px;
+  }
+
+  h2{
+    position: relative;
+    text-align: center;
+  }
+  
+  #BtcName{
+    margin-top: 3px;
+    font-size: 50px;
+  }
+
+#PriceSymbol{
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  border-bottom: solid;
+  border-color:rgb(71, 71, 71) ;
+}
+
+#Increase, #BtcLastUpdated{
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.text{
+  width: 700px;
+  border: 5px solid rgb(71, 71, 71);
+  padding: 20px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  text-align: left;
+}
+
+#waitingText{
+  position: relative;
+  text-align: center;
+}
+
+#bottom {
+    position: absolute;
+    font-size: 15px;
+    bottom: 0;
+    left: 0;
+  }
+
+.Place{
+  margin-top: 30px;
+  margin-bottom: 5px;
+
+}
